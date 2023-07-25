@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Golam Mohiuddin Niloy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Me</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Introduction</h1>
+      <figure class="figure">
+        <img id="" src="{% static 'img/niloy.jpeg' %}" class="figure-img img-fluid rounded img-thumbnail" alt="Preview">
+        <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+      </figure>
+      <p align="justify" class="lead">I'm <b>Golam Mohiuddin Niloy</b>. I attend Daffodil International University where
+        I study <b>Software
+          Engineering (Major in Data Science)</b>. I have basic knowledge in Software Development and Data Science. In
+        software development, my passion for creating robust and efficient applications using Django is evident. My
+        proficiency in Python and in-depth knowledge of Django's features enable to deliver dynamic and scalable web
+        solutions. My commitment to writing clean and maintainable code ensures optimal performance and an exceptional
+        user experience. I stays up-to-date with industry trends, making solutions future-proof.</p>
+
+      <p align="justify" class="lead">I have been studying Data Science and have developed a strong foundation in
+        Statistical Analysis, Programming, and Data Manipulation Techniques. My coursework has encompassed areas such as
+        Data Mining, Machine Learning, Deep Learning and Data Visualization, providing me with a comprehensive
+        understanding of the
+        core concepts and tools within the field.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS (Popper.js and jQuery are required) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
